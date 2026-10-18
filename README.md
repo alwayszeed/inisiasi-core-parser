@@ -1,6 +1,9 @@
 # DBML Studio
 
+> Bagian dari seri **DBML to Supabase (AI-powered)** — **Day 1** (inti parser DBML → JSON).
+
 Next.js + Node.js project providing a basic parser from **DBML** (Database Markup Language) syntax to **JSON**.
+
 
 ## Structure
 
@@ -55,3 +58,12 @@ npm run build
 - Comments (`//`, `/* */`)
 
 JSON output includes tables, columns, refs, enums, table groups, and parse errors.
+
+## Seri proyek (DBML to Supabase AI)
+
+| Hari | Fokus | Repo |
+|------|-------|------|
+| Day 1 | Setup + core parser DBML | **repo ini** |
+| Day 2 | Gemini API untuk SQL & RLS | [Integrasi Gemini API untuk SQL & RLS](https://github.com/alwayszeed/Integrasi-Gemini-API-untuk-SQL-RLS) |
+| Day 3 | UI split-screen + export SQL | [Interactive Split-Screen UI](https://github.com/alwayszeed/Interactive-Split-Screen-UI) |
+| Day 4 | Unit testing, demo GIF, dokumentasi | [Unit Testing, Demo & Dokumentasi](https://github.com/alwayszeed/Unit-Testing-Demo-Dokumentasi) |
